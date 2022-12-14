@@ -1,4 +1,5 @@
 import React from "react";
+import '../css/boton.css';
 
 function Boton(props) {
 

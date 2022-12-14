@@ -6,7 +6,6 @@ import BotonClear from './componentes/botonClear';
 import {useState} from 'react';
 import {evaluate} from 'mathjs';
 
-
 function App() {
 
 	const [input, setInput] = useState('');
@@ -16,7 +15,9 @@ function App() {
 	};
 
 	const calcularResultado = () => {
-		setInput(evaluate(input));
+		if (input){
+			setInput(evaluate(input));
+		}
 	};
 
 	return (

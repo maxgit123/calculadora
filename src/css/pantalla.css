@@ -6,10 +6,11 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    font-weight: bolder;
-    font-size: 30px;
-    background-color: #0a0a23;
-    color: white;
+    font-family: 'Calculator', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    background-color: #3c5655;
+    color: #171717;
     padding: 11px 30px 11px 11px;
     border: 1px solid #888;
     box-shadow: -1px 4px 1px 1px white;

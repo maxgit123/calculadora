@@ -9,9 +9,10 @@
     font-family: 'Calculator', sans-serif;
     font-weight: bold;
     font-size: 80px;
-    background-color: #3c5655;
+    background-color: #9fa59a;
     color: #171717;
     padding: 11px 30px 11px 11px;
     border: 1px solid #888;
-    box-shadow: -1px 4px 1px 1px white;
+    box-shadow: -1px 4px 1px 1px #55587c;
+    ;
 }

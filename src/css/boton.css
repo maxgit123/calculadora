@@ -6,17 +6,18 @@
     align-items: center;
     font-weight: bold;
     font-size: 38px;
-    background-color: #1b1b32;
-    color: white;
+    background-color: #88868f;
+    color: #fafafa;
     border-radius: 25px;
-    border: 2px solid white;
+    border: 0px solid #1c1c1c;
     margin: 4px;
     cursor: pointer;
     user-select: none;
+    box-shadow: inset 0px 2px 5px -1px white;
 }
 
 .contenedor-boton:hover {
-    background-color: #5a01a7;
+    background-color: #a3a2a9;
 }
 
 .operador {
@@ -24,5 +25,5 @@
 }
 
 .operador:hover {
-    background-color: #f60;
+    background-color: #005721;
 }

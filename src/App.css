@@ -26,9 +26,10 @@
 	width: 400px;
 	height: 600px;
 	padding: 14px;
-	background-color: #99c9ff;
+	background-color: #4a4d6c;
 	border-radius: 20px;
-	border: 5px solid white;
+	border: 2px solid #3f415c;
+	box-shadow: inset 0px 0px 5px 5px #3f415c;
 }
 
 .fila {

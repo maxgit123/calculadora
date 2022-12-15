@@ -10,11 +10,6 @@ function App() {
 
 	const [input, setInput] = useState('');
 
-	// const addInput = val => {
-	// 	setInput(input + val);
-	// };
-
-
 	const addInput = valor => {
 
 		if (!input && (valor === '*' || valor === '/')) return;
@@ -25,7 +20,7 @@ function App() {
   };
 
 	const calcularResultado = () => {
-		if (input && (input.slice(-1) !== '*') && (input.slice(-1) !== '/')) {
+		if (input && (input.slice(-1) !== '*') && (input.slice(-1) !== '/') && (input.slice(-1) !== '+') && (input.slice(-1) !== '-')) {
 			setInput(evaluate(input));
 		}
 	};

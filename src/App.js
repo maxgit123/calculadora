@@ -10,12 +10,22 @@ function App() {
 
 	const [input, setInput] = useState('');
 
-	const addInput = val => {
-		setInput(input + val);
-	};
+	// const addInput = val => {
+	// 	setInput(input + val);
+	// };
+
+
+	const addInput = valor => {
+
+		if (!input && (valor === '*' || valor === '/')) return;
+
+		if ((input.slice(-1) === '*' && (valor === '*' || valor=== '/')) || (input.slice(-1) === '/' && (valor=== '/' || valor === '*'))) return;
+
+		setInput(input + valor);
+  };
 
 	const calcularResultado = () => {
-		if (input){
+		if (input && (input.slice(-1) !== '*') && (input.slice(-1) !== '/')) {
 			setInput(evaluate(input));
 		}
 	};
